@@ -44,7 +44,7 @@ export default function Home() {
   return (
     loading ? (
       <div className="min-h-screen w-full border flex justify-center items-center">
-        <div className=" animate-pulse ease-linear rounded-full border-8 border-t-8 border-purple-600 h-32 w-32">
+        <div className="loader ease-linear rounded-full border-8 border-t-8 border-purple-600 h-32 w-32">
         </div>
       </div>
     ) : (
