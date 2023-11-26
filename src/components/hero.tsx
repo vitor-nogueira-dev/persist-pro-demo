@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
 
-            <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
+            <div className="w-full px-4 lg:w-1/2 xl:w-6/12" data-aos="fade-right" data-aos-duration="1500">
               <div className="relative rounded-lg bg- p-8 shadow-lg dark:bg-dark-2 sm:p-12">
                 <form onSubmit={
                   handleSubmit
@@ -911,7 +911,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full pr-12 pl-8 lg:w-1/2 xl:w-6/12">
+            <div className="w-full pr-12 pl-8 lg:w-1/2 xl:w-6/12" data-aos="fade-left" data-aos-duration="2000">
               <div className="mb-12 max-w-[570px] lg:mb-0 flex flex-col item-center">
                 <span className="mb-4 block text-lg font-semibold text-primary">
                   Descubra a Facilidade do Armazenamento Local com Persist Pro ⭐️
