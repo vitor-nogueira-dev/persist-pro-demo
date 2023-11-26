@@ -18,9 +18,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt">
+      <head>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      </head>
       <body className={inter.className}>
         {children}
         <Analytics />
+        <script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
       </body>
     </html>
   )
