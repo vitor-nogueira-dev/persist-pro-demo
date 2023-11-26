@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.1.1",
+    "aos": "^2.3.4",
     "next": "14.0.3",
     "persist-pro": "^0.1.36",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
