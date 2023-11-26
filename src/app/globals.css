@@ -38,3 +38,27 @@ body {
 .loader {
   animation: spinner 1.5s linear infinite;
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid white;
+  -webkit-text-fill-color: rgb(155, 155, 155) !important;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.card-profile {
+  box-shadow: rgba(128, 0, 128, 0.4) -5px 5px, rgba(128, 0, 128, 0.3) -10px 10px,
+    rgba(128, 0, 128, 0.2) -15px 15px, rgba(128, 0, 128, 0.1) -20px 20px,
+    rgba(128, 0, 128, 0.05) -25px 25px;
+}
+
+.rounded {
+  border-radius: 1.25rem;
+}
