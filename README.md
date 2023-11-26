@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Este é um site demo da biblioteca `Persist Pro ⭐️`
+**Persist Pro** é uma biblioteca desenvolvida para facilitar a gestão de dados persistentes em aplicações React, tornando o trabalho com o `localStorage` mais simples e intuitivo. Com a **Persist Pro**, você pode facilmente armazenar, recuperar e gerenciar estados persistentes em seus **sites**, **portfólios** e **aplicações web**.
 
-## Getting Started
+## 🔗 Links Úteis
 
-First, run the development server:
+- [Deploy da Demonstração](https://persist-pro-demo.vercel.app/)
+- [Pacote NPM](https://www.npmjs.com/package/persist-pro)
+- [Repositório GitHub](https://github.com/vitor-nogueira-dev/persist-pro) 
+
+## 🚀 Características
+
+- **Intuitivo**: Facilidade de integração e uso com React.
+- **Versátil**: Gerencie qualquer tipo de dado persistente, de simples strings a objetos complexos.
+- **Eficiente**: Otimizado para performance e simplicidade, mantendo seu pacote leve.
+- **Customizável**: Adapte para atender às necessidades específicas de seu projeto.
+
+## 🛠 Como Usar
+
+1. Instale a biblioteca via NPM:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install persist-pro
 ```
+2. Integre em seu projeto React.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Configure o armazenamento de dados e comece a usar!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗[Veja a documentação completa aqui](https://www.npmjs.com/package/persist-pro) 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## ⁉️ Dúvidas, sugestões e melhorias
+Se você tiver dúvidas, quiser relatar um bug ou solicitar novos recursos, por favor, abra uma [issue](https://github.com/vitor-nogueira-dev/persist-pro/issues)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
