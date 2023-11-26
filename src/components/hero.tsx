@@ -6,7 +6,6 @@ import React, { useEffect, useState } from "react";
 import ContactInputBox from "./contact-input";
 import ContactTextArea from "./contact-textarea";
 
-
 const initialDataUser = {
   name: '',
   email: '',
@@ -22,8 +21,13 @@ const Hero = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (localStorageDataUser === dataUser) {
+      setDataUser(initialDataUser);
+      return;
+    };
     setLocalStorageDataUser(dataUser);
     setLoading(true);
+    setDataUser(initialDataUser);
   };
 
   useEffect(() => {
