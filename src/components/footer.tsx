@@ -7,7 +7,7 @@ export default function Footer({ }: Props) {
     <footer className='w-full p-4 flex justify-center gap-6'>
       <a
         href="https://github.com/vitor-nogueira-dev/persist-pro"
-        className="group rounded-lg border px-5 py-4 transition-colors hover:bg-purple-900/20 border-[#808080d1] hover:border hover:border-white text-[#808080d1] hover:text-white"
+        className="group rounded-lg border px-5 py-4 transition-colors hover:bg-purple-900/20 border-[#808080d1] hover:border hover:border-white text-[#808080d1] hover:text-white w-1/2  md:w-1/3"
         target="_blank"
         rel="noopener noreferrer"
         data-aos="fade-up"
@@ -26,7 +26,7 @@ export default function Footer({ }: Props) {
       </a>
       <a
         href="https://www.npmjs.com/package/persist-pro"
-        className="group rounded-lg border px-5 py-4 transition-colors hover:bg-purple-900/20 border-[#808080d1] hover:border hover:border-white text-[#808080d1] hover:text-white"
+        className="group rounded-lg border px-5 py-4 transition-colors hover:bg-purple-900/20 border-[#808080d1] hover:border hover:border-white text-[#808080d1] hover:text-white w-1/2 md:w-1/3"
         target="_blank"
         rel="noopener noreferrer"
         data-aos="fade-up"
